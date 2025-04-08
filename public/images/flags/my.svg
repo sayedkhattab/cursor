@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <!-- الخلفية -->
+  <rect width="900" height="600" fill="#FFFFFF"/>
+  
+  <!-- الخطوط الأفقية الحمراء والبيضاء بالتبادل -->
+  <rect y="0" width="900" height="43" fill="#CC0000"/>
+  <rect y="86" width="900" height="43" fill="#CC0000"/>
+  <rect y="172" width="900" height="43" fill="#CC0000"/>
+  <rect y="258" width="900" height="43" fill="#CC0000"/>
+  <rect y="344" width="900" height="43" fill="#CC0000"/>
+  <rect y="430" width="900" height="43" fill="#CC0000"/>
+  <rect y="516" width="900" height="43" fill="#CC0000"/>
+  
+  <!-- المستطيل الأزرق -->
+  <rect width="450" height="344" fill="#000066"/>
+  
+  <!-- الهلال -->
+  <path fill="#FFCC00" d="M 280,172 A 122,122 0 0 1, 280,50 A 140,140 0 0 0, 280,172 z"/>
+  
+  <!-- النجمة -->
+  <polygon fill="#FFCC00" points="225,170 240,125 255,170 300,155 270,185 300,210 255,195 240,240 225,195 180,210 210,185 180,155"/>
+</svg> 

@@ -1,0 +1,44 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Green -->
+  <rect x="0" y="400" width="800" height="200" fill="#239f40"/>
+  
+  <!-- White -->
+  <rect x="0" y="200" width="800" height="200" fill="#FFFFFF"/>
+  
+  <!-- Red -->
+  <rect x="0" y="0" width="800" height="200" fill="#da0000"/>
+  
+  <!-- Emblem in the center -->
+  <g transform="translate(400, 300)">
+    <!-- Stylized Allah in the center -->
+    <path d="M-40,-20 L40,-20 L40,20 L-40,20 Z" fill="none" stroke="#FFF" stroke-width="3"/>
+    <path d="M-30,-10 L30,-10 L30,10 L-30,10 Z" fill="none" stroke="#da0000" stroke-width="3"/>
+    
+    <!-- Red tulip symbols -->
+    <g fill="#da0000">
+      <!-- Top -->
+      <path d="M0,-60 C10,-50 10,-30 0,-20 C-10,-30 -10,-50 0,-60 Z"/>
+      
+      <!-- Bottom -->
+      <path d="M0,60 C10,50 10,30 0,20 C-10,30 -10,50 0,60 Z"/>
+      
+      <!-- Left -->
+      <path d="M-60,0 C-50,10 -30,10 -20,0 C-30,-10 -50,-10 -60,0 Z"/>
+      
+      <!-- Right -->
+      <path d="M60,0 C50,10 30,10 20,0 C30,-10 50,-10 60,0 Z"/>
+      
+      <!-- Diagonal top-right -->
+      <path d="M42,-42 C49,-35 49,-21 42,-14 C35,-21 35,-35 42,-42 Z"/>
+      
+      <!-- Diagonal bottom-right -->
+      <path d="M42,42 C49,35 49,21 42,14 C35,21 35,35 42,42 Z"/>
+      
+      <!-- Diagonal bottom-left -->
+      <path d="M-42,42 C-49,35 -49,21 -42,14 C-35,21 -35,35 -42,42 Z"/>
+      
+      <!-- Diagonal top-left -->
+      <path d="M-42,-42 C-49,-35 -49,-21 -42,-14 C-35,-21 -35,-35 -42,-42 Z"/>
+    </g>
+  </g>
+</svg> 

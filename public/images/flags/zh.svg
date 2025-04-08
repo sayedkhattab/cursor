@@ -1,0 +1,32 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Red background -->
+  <rect width="800" height="600" fill="#DE2910"/>
+  
+  <!-- Large star -->
+  <g transform="translate(200, 200)">
+    <polygon points="0,-70 20.4,-21.5 67.1,-21.5 27.3,8.2 41.9,56.8 0,30 -41.9,56.8 -27.3,8.2 -67.1,-21.5 -20.4,-21.5" fill="#FFDE00"/>
+  </g>
+  
+  <!-- Small stars -->
+  <g fill="#FFDE00">
+    <!-- Star 1 -->
+    <g transform="translate(320, 120)">
+      <polygon points="0,-25 7.3,-7.7 24,-7.7 9.7,3 15,20.7 0,10.8 -15,20.7 -9.7,3 -24,-7.7 -7.3,-7.7" />
+    </g>
+    
+    <!-- Star 2 -->
+    <g transform="translate(360, 160)">
+      <polygon points="0,-25 7.3,-7.7 24,-7.7 9.7,3 15,20.7 0,10.8 -15,20.7 -9.7,3 -24,-7.7 -7.3,-7.7" />
+    </g>
+    
+    <!-- Star 3 -->
+    <g transform="translate(360, 240)">
+      <polygon points="0,-25 7.3,-7.7 24,-7.7 9.7,3 15,20.7 0,10.8 -15,20.7 -9.7,3 -24,-7.7 -7.3,-7.7" />
+    </g>
+    
+    <!-- Star 4 -->
+    <g transform="translate(320, 280)">
+      <polygon points="0,-25 7.3,-7.7 24,-7.7 9.7,3 15,20.7 0,10.8 -15,20.7 -9.7,3 -24,-7.7 -7.3,-7.7" />
+    </g>
+  </g>
+</svg> 

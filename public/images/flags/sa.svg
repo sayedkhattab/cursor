@@ -1,0 +1,12 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#006C35"/>
+  <g transform="translate(400, 300)">
+    <!-- Shahada Text in Arabic -->
+    <g fill="#ffffff">
+      <path d="M-250 -40 h500 v80 h-500 z" fill="none"/>
+      <text font-family="Traditional Arabic, Arial" font-size="50" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">لا إله إلا الله محمد رسول الله</text>
+    </g>
+    <!-- Sword -->
+    <path d="M-200 50 l400 0 M-150 80 l300 0 M50 50 l0 -140 M-10 -30 A60 60 0 0 1 50 -30" stroke="#ffffff" stroke-width="15" fill="none"/>
+  </g>
+</svg> 

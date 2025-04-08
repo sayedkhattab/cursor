@@ -1,0 +1,44 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background (White) -->
+  <rect width="800" height="600" fill="#FFFFFF"/>
+  
+  <!-- Taegeuk (yin-yang symbol) -->
+  <g transform="translate(400, 300)">
+    <!-- Red part (top/clockwise) - Represents positive cosmic forces (yang) -->
+    <path d="M0,-120 A120,120 0 0,1 0,120 A60,60 0 0,1 0,0 A60,60 0 0,0 0,-120" fill="#CD2E3A"/>
+    
+    <!-- Blue part (bottom/counter-clockwise) - Represents negative cosmic forces (yin) -->
+    <path d="M0,-120 A60,60 0 0,1 0,0 A60,60 0 0,0 0,120 A120,120 0 0,1 0,-120" fill="#0047A0"/>
+  </g>
+  
+  <!-- Four Trigrams at the corners (Black) -->
+  <g transform="translate(400, 300)">
+    <!-- ☰ (Heaven/Geon) - Top Left -->
+    <g transform="translate(-150, -100)">
+      <rect x="-30" y="-15" width="60" height="8" fill="#000000"/>
+      <rect x="-30" y="0" width="60" height="8" fill="#000000"/>
+      <rect x="-30" y="15" width="60" height="8" fill="#000000"/>
+    </g>
+    
+    <!-- ☲ (Fire/Li) - Top Right -->
+    <g transform="translate(150, -100)">
+      <rect x="-30" y="-15" width="60" height="8" fill="#000000"/>
+      <rect x="-30" y="0" width="60" height="8" fill="#000000"/>
+      <rect x="-30" y="15" width="30" height="8" fill="#000000"/>
+    </g>
+    
+    <!-- ☵ (Water/Gam) - Bottom Left -->
+    <g transform="translate(-150, 100)">
+      <rect x="-30" y="-15" width="60" height="8" fill="#000000"/>
+      <rect x="-30" y="0" width="30" height="8" fill="#000000"/>
+      <rect x="-30" y="15" width="60" height="8" fill="#000000"/>
+    </g>
+    
+    <!-- ☷ (Earth/Gon) - Bottom Right -->
+    <g transform="translate(150, 100)">
+      <rect x="-30" y="-15" width="30" height="8" fill="#000000"/>
+      <rect x="-30" y="0" width="30" height="8" fill="#000000"/>
+      <rect x="-30" y="15" width="30" height="8" fill="#000000"/>
+    </g>
+  </g>
+</svg> 

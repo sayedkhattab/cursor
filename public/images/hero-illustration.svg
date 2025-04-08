@@ -1,0 +1,74 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background shapes -->
+  <circle cx="350" cy="50" r="20" fill="#e6f7ec" />
+  <circle cx="50" cy="250" r="30" fill="#e6f7ec" />
+  <circle cx="330" cy="270" r="15" fill="#e6f7ec" />
+  <path d="M380,150 Q400,100 380,50" stroke="#bfebd3" stroke-width="2" fill="none" />
+  <path d="M20,120 Q0,170 20,220" stroke="#bfebd3" stroke-width="2" fill="none" />
+  
+  <!-- Main illustration container -->
+  <g transform="translate(200, 150)">
+    <!-- Book and Learning Box -->
+    <rect x="-100" y="-80" width="200" height="160" rx="5" ry="5" fill="white" stroke="#e5e7eb" stroke-width="2" />
+    
+    <!-- Divider Line -->
+    <line x1="0" y1="-80" x2="0" y2="80" stroke="#e5e7eb" stroke-width="2" />
+    
+    <!-- Arabic Side -->
+    <g transform="translate(-50, 0)">
+      <text x="0" y="-50" font-family="Arial, sans-serif" font-size="12" fill="#111827" font-weight="bold" text-anchor="middle">اللغة العربية</text>
+      <text x="0" y="-35" font-family="Arial, sans-serif" font-size="10" fill="#4b5563" text-anchor="middle">حروف وكلمات</text>
+      
+      <!-- Arabic Letters -->
+      <g font-family="Arial, sans-serif" font-size="14" fill="#10b981">
+        <text x="-30" y="0" text-anchor="middle">أ</text>
+        <text x="-10" y="0" text-anchor="middle">ب</text>
+        <text x="10" y="0" text-anchor="middle">ت</text>
+        <text x="30" y="0" text-anchor="middle">ث</text>
+        
+        <text x="-30" y="25" text-anchor="middle">ج</text>
+        <text x="-10" y="25" text-anchor="middle">ح</text>
+        <text x="10" y="25" text-anchor="middle">خ</text>
+        <text x="30" y="25" text-anchor="middle">د</text>
+        
+        <text x="-30" y="50" text-anchor="middle">ذ</text>
+        <text x="-10" y="50" text-anchor="middle">ر</text>
+        <text x="10" y="50" text-anchor="middle">ز</text>
+        <text x="30" y="50" text-anchor="middle">س</text>
+      </g>
+    </g>
+    
+    <!-- Latin Side -->
+    <g transform="translate(50, 0)">
+      <text x="0" y="-50" font-family="Arial, sans-serif" font-size="12" fill="#111827" font-weight="bold" text-anchor="middle">Arabic</text>
+      <text x="0" y="-35" font-family="Arial, sans-serif" font-size="10" fill="#4b5563" text-anchor="middle">Learn Arabic</text>
+      
+      <!-- Interactive Elements -->
+      <g>
+        <circle cx="-25" cy="0" r="10" fill="#e6f7ec" stroke="#10b981" stroke-width="1" />
+        <circle cx="0" cy="0" r="10" fill="#e6f7ec" stroke="#10b981" stroke-width="1" />
+        <circle cx="25" cy="0" r="10" fill="#e6f7ec" stroke="#10b981" stroke-width="1" />
+        
+        <circle cx="-25" cy="30" r="10" fill="#e6f7ec" stroke="#10b981" stroke-width="1" />
+        <circle cx="0" cy="30" r="10" fill="#e6f7ec" stroke="#10b981" stroke-width="1" />
+        <circle cx="25" cy="30" r="10" fill="#e6f7ec" stroke="#10b981" stroke-width="1" />
+        
+        <!-- Check marks and X's -->
+        <g stroke="#10b981" stroke-width="2" stroke-linecap="round">
+          <path d="M-30,0 L-25,5 L-20,-5" />
+          <path d="M-5,0 L0,5 L5,-5" />
+          <path d="M20,0 L30,0" />
+          
+          <path d="M-30,30 L-20,30" />
+          <path d="M-5,30 L0,35 L5,25" />
+          <line x1="20" y1="25" x2="30" y2="35" />
+          <line x1="20" y1="35" x2="30" y2="25" />
+        </g>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="20" cy="20" r="5" fill="#fcd34d" />
+  <circle cx="380" cy="280" r="5" fill="#fcd34d" />
+</svg> 

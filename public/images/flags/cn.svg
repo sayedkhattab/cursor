@@ -1,0 +1,25 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#DE2910"/>
+  
+  <!-- Large Star -->
+  <g transform="translate(160, 150) scale(3)">
+    <polygon points="0,-30 10,-10 30,-10 15,5 20,25 0,15 -20,25 -15,5 -30,-10 -10,-10" fill="#FFDE00"/>
+  </g>
+  
+  <!-- Small Stars -->
+  <g transform="translate(360, 90)">
+    <polygon points="0,-15 5,-5 15,-5 7.5,2.5 10,12.5 0,7.5 -10,12.5 -7.5,2.5 -15,-5 -5,-5" fill="#FFDE00"/>
+  </g>
+  
+  <g transform="translate(420, 150)">
+    <polygon points="0,-15 5,-5 15,-5 7.5,2.5 10,12.5 0,7.5 -10,12.5 -7.5,2.5 -15,-5 -5,-5" fill="#FFDE00"/>
+  </g>
+  
+  <g transform="translate(420, 240)">
+    <polygon points="0,-15 5,-5 15,-5 7.5,2.5 10,12.5 0,7.5 -10,12.5 -7.5,2.5 -15,-5 -5,-5" fill="#FFDE00"/>
+  </g>
+  
+  <g transform="translate(360, 300)">
+    <polygon points="0,-15 5,-5 15,-5 7.5,2.5 10,12.5 0,7.5 -10,12.5 -7.5,2.5 -15,-5 -5,-5" fill="#FFDE00"/>
+  </g>
+</svg> 

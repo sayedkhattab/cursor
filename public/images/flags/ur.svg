@@ -1,0 +1,19 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark green background -->
+  <rect width="800" height="600" fill="#01411C"/>
+  
+  <!-- White vertical band on the left -->
+  <rect x="0" y="0" width="200" height="600" fill="#FFFFFF"/>
+  
+  <!-- Crescent and star -->
+  <g transform="translate(500, 300)">
+    <!-- Crescent -->
+    <circle cx="0" cy="0" r="120" fill="#FFFFFF"/>
+    <circle cx="30" cy="0" r="100" fill="#01411C"/>
+    
+    <!-- Star -->
+    <g transform="translate(80, 0) rotate(15)">
+      <polygon points="0,-60 17.6,-18.5 57.6,-18.5 23.4,7.1 35.3,48.5 0,25 -35.3,48.5 -23.4,7.1 -57.6,-18.5 -17.6,-18.5" fill="#FFFFFF"/>
+    </g>
+  </g>
+</svg> 

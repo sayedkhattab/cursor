@@ -1,0 +1,35 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="800" height="200" fill="#FF9933"/>
+  <rect x="0" y="200" width="800" height="200" fill="#FFFFFF"/>
+  <rect x="0" y="400" width="800" height="200" fill="#138808"/>
+  
+  <!-- Ashoka Chakra -->
+  <g transform="translate(400, 300)">
+    <circle cx="0" cy="0" r="60" fill="#000080"/>
+    <circle cx="0" cy="0" r="55" fill="#FFFFFF"/>
+    <circle cx="0" cy="0" r="20" fill="#000080"/>
+    
+    <!-- 24 spokes -->
+    <g stroke="#000080" stroke-width="3">
+      <!-- Simplified representation with 12 lines -->
+      <line x1="0" y1="-55" x2="0" y2="-20"/>
+      <line x1="39" y1="-39" x2="14" y2="-14"/>
+      <line x1="55" y1="0" x2="20" y2="0"/>
+      <line x1="39" y1="39" x2="14" y2="14"/>
+      <line x1="0" y1="55" x2="0" y2="20"/>
+      <line x1="-39" y1="39" x2="-14" y2="14"/>
+      <line x1="-55" y1="0" x2="-20" y2="0"/>
+      <line x1="-39" y1="-39" x2="-14" y2="-14"/>
+      
+      <!-- Additional diagonal lines -->
+      <line x1="19" y1="-51" x2="7" y2="-19"/>
+      <line x1="51" y1="-19" x2="19" y2="-7"/>
+      <line x1="51" y1="19" x2="19" y2="7"/>
+      <line x1="19" y1="51" x2="7" y2="19"/>
+      <line x1="-19" y1="51" x2="-7" y2="19"/>
+      <line x1="-51" y1="19" x2="-19" y2="7"/>
+      <line x1="-51" y1="-19" x2="-19" y2="-7"/>
+      <line x1="-19" y1="-51" x2="-7" y2="-19"/>
+    </g>
+  </g>
+</svg> 
